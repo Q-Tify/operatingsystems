@@ -1,0 +1,7 @@
+16-bit virtual address
+
+2^13 B = 8 KB  => 13 bits are occupied by page. 3 bits left for the page number =>
+
+=> the number of entries = 2^3 = 8
+
+Answer: 8 entries
