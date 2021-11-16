@@ -1,0 +1,22 @@
+Theory covered three strategies of dealing with deadlocks:
+Recovery, Prevention and Avoidance.
+
+Recovery strategy lets the deadlock to happen and then take an attempt to fix the situation.
+The problem can be fixed in 3 different ways:
+1.Take away the preemptive resource that is used
+2.Use rollback (it should take checkpoints to do it)
+3.Kill a process causing the deadlock. (this method should be avoided)
+The main disadvanteges are: it inherent pre-emption losses and requested resources are granted to processes whenever possible.
+
+
+Prevention strategy
+To prevent the deadlock 4 conditions should be satisfied:
+1.Mutual Exclusion Condition
+2.Hold-and-Wait Condition
+3.No preemption Condition
+4.Circular wait Condition
+The main disadvantage of this method that it limits the number of resources a process is allowed to have.
+
+Avoidance strategy is the best from others because it avoids the deadlock.
+But it can be used only if certain information is available beforehand. (granting resource safe or not)
+Also it requires smart scheduling algo.
